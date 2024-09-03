@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 
-const tg = window.Telegram.WebApp;
-
 function App() {
   const [count, setCount] = useState(0);
   const [scale, setScale] = useState(1);
